@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9B054"
+
+    tools:context=".UploadActivity">
+
+    <RelativeLayout
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/lavender"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/uploadTitle"
+                android:layout_width="18dp"
+                android:layout_height="170dp"
+                android:layout_weight="0.6"
+
+                android:hint="Add Title..."
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/uploadAuthor"
+                android:layout_width="20dp"
+                android:layout_height="170dp"
+                android:layout_weight="0.6"
+
+                android:hint="Add Author...."
+                android:padding="16dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/uploadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="143dp"
+                android:backgroundTint="@color/lavender"
+                android:src="@drawable/baseline_send_24"
+                app:tint="@color/white" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-30dp"
+        android:baselineAligned="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/uploadimg" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699000018039",
+    "project_id": "booksharingservicelicenta",
+    "storage_bucket": "booksharingservicelicenta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699000018039:android:0b47bcbdd558dc20fe6272",
+        "android_client_info": {
+          "package_name": "com.example.booksharingservicelicenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699000018039-5q21sbj4fcri2jecdrmpfdo2b97f7m9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKYW_rZaoPGSHZ_1tZ7oYevDHF8jayqPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699000018039-5q21sbj4fcri2jecdrmpfdo2b97f7m9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
